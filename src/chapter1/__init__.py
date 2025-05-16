@@ -1,1 +1,1 @@
-from .equities import random_walk
+from .equities import RandomWalk
