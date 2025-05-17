@@ -10,7 +10,10 @@ import matplotlib.pyplot as plt
 
 
 class CallPutParity:
+    # TODO: docstring
+    # TODO: anota assinatura da classe
     def __init__(self, spot, call, put, r, strike, maturity):
+        # TODO: regras de validação dos dados.
         self.spot = np.array(spot)
         self.call = np.array(call)
         self.put = np.array(put)
@@ -61,6 +64,7 @@ class CallPutParity:
 
 
 if __name__ == "__main__":
+    # TODO: exemplo com dados reais
     call_put_model = CallPutParity(
         spot=[90, 93, 98, 100, 104, 102],
         call=[2.5, 2.5, 3.5, 5, 5.5, 6.5],
